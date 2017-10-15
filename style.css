@@ -1,0 +1,267 @@
+.op-cultrain-bord ul, .op-cultrain-bord li, .op-cultrain-bord p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.op-cultrain-bord {
+    height: auto;
+    border: 1px solid #666;
+    width: 275px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.op-cultrain-main {
+    height: 125px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.op-cultrain-box {
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 275px;
+}
+
+.op-cultrain-line {
+    cursor: pointer;
+    list-style: none;
+    width: 100px;
+    height: 24px;
+    color: #aaa;
+    line-height: 24px;
+    border: 1px solid #bdbdbd;
+    float: left;
+    position: relative;
+}
+
+.op-cultrain-line em {
+    font-style: normal;
+    font-size: 13px;
+    color: #333;
+    padding-left: 7px;
+}
+
+.op-cultrain-line em span {
+    display: block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 8px;
+    top: 8px;
+}
+
+.op-cultrain-ul {
+    background: #fff;
+    z-index: 999;
+    height: 188px;
+    display: none;
+    position: absolute;
+    border: 1px solid #bbb;
+    top: 24px;
+    width: 100px;
+    left: -1px;
+    overflow-y: scroll;
+}
+
+.op-cultrain-ul li {
+    cursor: pointer;
+    background: #fff;
+    width: 103px;
+    height: 31px;
+    list-style: none;
+    line-height: 31px;
+    color: #333;
+    padding-left: 22px;
+    position: relative;
+    font-size: 13px;
+}
+
+
+.op-cultrain-ul li span {
+    display: block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    left: 8px;
+    top: 11px;
+}
+
+.op-cultrain-jg {
+    width: 20px;
+    float: left;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #ccc;
+}
+
+.op-cultrain-station {
+    cursor: pointer;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    color: #aaa;
+    border: 1px solid #bdbdbd;
+    float: left;
+    position: relative;
+    background: #f7f7f7;
+    border-top: 1px solid #999;
+    border-left: 1px solid #999;
+}
+
+.op-cultrain-k {
+    width: 25px;
+    height: 24px;
+    top: 0;
+    position: absolute;
+    right: 0;
+    border-left: 1px solid #d9d9d9;
+    background: url(icons.jpg) no-repeat center center;
+}
+
+.op-cultrain-station em {
+    font-style: normal;
+    font-size: 13px;
+    padding: 0 5px;
+}
+
+
+.op-cultrain-ulk {
+    z-index: 999;
+    display: none;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 24px;
+    left: -1px;
+    border: 1px solid #bbb;
+    background: #fff;
+}
+
+.op-cultrain-ulk li {
+    cursor: pointer;
+    background: #fff;
+    list-style: none;
+    width: 85px;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    padding-left: 12px;
+    color: #333;
+    font-size: 13px
+}
+
+.op-cultrain-box-end {
+    clear: both;
+}
+
+
+.op-cultrain-calc-false {
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    color: #b8b8b8;
+    background: #f5f5f5;
+    border: 1px solid #d9d9d9;
+    width: 82px;
+    height: 26px;
+    margin-top: 12px;
+    margin-left: 39px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 13px;
+}
+
+
+.op-cultrain-calc-fare {
+    border: 0;
+    position: absolute;
+    left: 3px;
+    cursor: pointer;
+    width: 82px;
+    height: 26px;
+    background: #3188ff;
+    margin-top: 12px;
+    margin-left: 46px;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    font-size: 13px;
+}
+
+.op-cultrain-ts {
+    font-size: 13px;
+    position: absolute;
+    left: 150px;
+    bottom: 23px;
+    display: none;
+}
+
+.op-cultrain-tab {
+    margin-top: 54px;
+    height: 28px;
+    border-bottom: 1px solid #d9d9d9;
+    background: #fafafa;
+    display: none;
+    width: 100%;
+}
+
+
+.op-cultrain-on {
+    list-style: none;
+    border-right: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    border-top: 2px solid #2b99ff;
+    color: #333;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+    z-index: 0;
+    width: 90px;
+}
+
+.op-cultrain-li {
+    border-left: 1px solid #fff;
+    list-style: none;
+    width: 180px;
+    float: left;
+    height: 26px;
+    text-align: center;
+    line-height: 28px;
+    color: #666;
+    font-size: 13px;
+    background: #fafafa;
+}
+
+
+.op-cultrain-footer {
+    display: none;
+    overflow: hidden;
+    height: auto;
+    padding-top: 12px;
+    width: 100%;
+    clear: both;
+}
+
+.op-cultrain-text {
+    margin: 0 auto;
+    clear: both;
+    padding: 0 2.5%;
+}
+
+.op-cultrain-title {
+    line-height: 16px;
+    font-size: 13px;
+    color: #666;
+}
+
+
+.op-cultrain-increase {
+    color: #f50;
+    font: inherit;
+    font-weight: 700;
+}
