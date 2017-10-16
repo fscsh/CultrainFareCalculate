@@ -6,8 +6,8 @@
 
 .op-cultrain-bord {
     height: auto;
-    border: 1px solid #666;
-    width: 275px;
+    border: 2px solid black;
+    width: 315px;
     font-size: 13px;
     line-height: 1.5;
 }
@@ -28,7 +28,7 @@
 .op-cultrain-line {
     cursor: pointer;
     list-style: none;
-    width: 100px;
+    width: 120px;
     height: 24px;
     color: #aaa;
     line-height: 24px;
@@ -101,7 +101,7 @@
 
 .op-cultrain-station {
     cursor: pointer;
-    width: 100px;
+    width: 120px;
     height: 24px;
     line-height: 24px;
     color: #aaa;
@@ -264,4 +264,11 @@
     color: #f50;
     font: inherit;
     font-weight: 700;
+}
+
+.op-cultrain-one{
+    background: red;
+}
+.op-cultrain-two{
+    background: yellow;
 }
