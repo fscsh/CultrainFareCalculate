@@ -22,7 +22,8 @@ function genCultrainLineHtml() {
 }
 
 function genCultrainStationHtml(lineName) {
-    for (var stations = cultrainData[lineName], htmls = [], i = 0; i < stations.length; ++i) htmls.push("<li>" + stations[i] + "</li>");
+    for (var stations = cultrainData[lineName], htmls = [], i = 0; i < stations.length; ++i)
+    htmls.push("<li>" + stations[i] + "</li>");
     return htmls.join("")
 }
 
